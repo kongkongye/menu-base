@@ -1,0 +1,19 @@
+<menu xmlns="http://xsd.kongkongye.com/MenuMod-1.0.0.xsd" server="false" title="附魔菜单" listContext="KKY-ATTACH-enchant">
+    <lines>
+        <line align="center" hover="$7提示:在单机或服务器中处于创造模式时有效.">$7━━━━━[ $3物品 $7]━━━━━</line>
+        <line align="center"><items side="local" param="KKY-ATTACH-enchant"/></line>
+        <list size="8">
+            <line align="center">
+                <text>$2{list:show}</text>
+                <sub group=""/>
+            </line>
+            <line sub="" align="center">
+                <text>等级: </text>
+                <input name="level" hover="$a最高$e{list:maxLevel}$a级"/>
+                <button cmdSide="local" value="/kkyenchant set {list:resName} {input:level}" mode="refresh">设置</button>
+                <button cmdSide="local" value="/kkyenchant clear {list:resName}" mode="refresh">清除</button>
+            </line>
+        </list>
+        <import path="local:default:list"/>
+    </lines>
+</menu>
