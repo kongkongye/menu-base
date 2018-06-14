@@ -1,21 +1,21 @@
 <menu xmlns="http://xsd.kongkongye.com/MenuMod-1.0.0.xsd" server="false" title="基础菜单">
     <lines>
         <line align="center">$5+-- $3$l时间 $5--+</line>
-        <line align="center" alignCenterType="spaceAround">
+        <line align="center" alignCenter="spaceAround">
             <button value="/time set 6000" hover="设置为白天">白天</button>
             <button value="/time set 18000" hover="设置为夜晚">夜晚</button>
         </line>
 
         <line/>
         <line align="center">$5+-- $3$l天气 $5--+</line>
-        <line align="center" alignCenterType="spaceAround">
+        <line align="center" alignCenter="spaceAround">
             <button value="/weather clear" hover="设置为晴天">晴天</button>
             <button value="/weather rain" hover="设置为下雨">下雨</button>
         </line>
 
         <line/>
         <line align="center">$5+-- $3$l游戏模式 $5--+</line>
-        <line align="center" alignCenterType="spaceBetween">
+        <line align="center" alignCenter="spaceBetween">
             <button value="/gamemode 0" hover="设置为生存模式">生存</button>
             <button value="/gamemode 1" hover="设置为创造模式">创造</button>
             <button value="/gamemode 2" hover="设置为冒险模式">冒险</button>
@@ -24,7 +24,7 @@
 
         <line/>
         <line align="center">$5+-- $3$l游戏难度 $5--+</line>
-        <line align="center" alignCenterType="spaceBetween">
+        <line align="center" alignCenter="spaceBetween">
             <button value="/difficulty 0" hover="怪物都不会出生">和平</button>
             <button value="/difficulty 1" hover="设置为简单难度">简单</button>
             <button value="/difficulty 2" hover="设置为普通难度">普通</button>
@@ -33,7 +33,7 @@
 
         <line/>
         <line align="center">$5+-- $3$l其它设置 $5--+</line>
-        <line align="center" alignCenterType="spaceBetween">
+        <line align="center" alignCenter="spaceBetween">
             <button value="/gamerule keepInventory true" hover="死亡不会掉落物品">死亡不掉落</button>
             <button value="/gamerule keepInventory false" hover="死亡会掉落物品">死亡掉落</button>
         </line>
